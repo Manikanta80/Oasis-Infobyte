@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="c:\Users\manip\Downloads\71a1780874254900adf25ad067c4623a-removebg-preview.png" class="logo"></img>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>STUDENT</p>
+                <h1>Hi, I'm <span>Puppala Manikanta</span><br>Data Sciencest</h1>
+                <a href="file:///C:/Users/manip/Downloads/Puppala_Manikanta_Resume_.pdf" download class="btn btn2" target="_blank">Download CV</a><br>
+                <a href="https://www.facebook.com/manipuppala1314?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/manikantapuppa6?t=aAIYUpu72LhNaHmbgcKkDA&s=09" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://instagram.com/manikanta_1314_?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manikanta-puppala-784141245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Manikanta80" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----------ABOUT---->
+
+<!-- ----------ABOUT---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\Users\manip\Downloads\DSC_0039.JPG" alt="About Me - Puppala Manikanta">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    <br><br>A student of Computer Science and Engineering at Centurion University of Technology and Management (CUTM), Vizianagaram, India.
+                     I have acquired a solid foundation in Data science and Machine Learing cources, Data Structures
+                      and Programing Technologies/Languages such as C, Python, Java, web Development, Power BI,and Microsoft Technologyes like Power POint
+                      Ms Word,Ms Excel Motivated fresher with a strong academic
+                      background. Adaptable and eager to learn, with
+                      excellent communication and problem-solving skills.
+                      Seeking opportunities to contribute and grow in
+                      [desired field/industry].
+                    
+                       
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                  <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('       ')"><big><b>    </b></big></p>
+                        <p class="tab-links" onclick="openTab('skills')"><big><b>Skills</b></big></p>
+                        <p class="tab-links" onclick="openTab('experience')"><big><b>Experience</b></big></p>
+                        <p class="tab-links" onclick="openTab('education')"><big><b>Education</b></big></p>
+                        <p class="tab-links" onclick="openTab('languages')"><big><b>Languages</b></big></p>
+                        <p class="tab-links" onclick="openTab('softskills')"><big><b>Soft Skills</b></big></p>
+                        <p class="tab-links" onclick="openTab('interests')"><big><b>Interests</b></big></p>
+                    </div>
+
+                    
+             <div>       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web Designing</li>
+                            <li><span>DSML</span><br>Data Science and Machine Learning</li>
+                            <li><span>Visualization</span><br>Power BI</li>
+                            <li><span>Data Analytics</span><br>Data Visualization</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2021</span><br>Internship in Oasis Infobyte based Web app Development</li>
+                            <li><span>2017-2019</span><br>Internship in Vintern based on Machine Learning</li>
+                            <li><span>2017-2019</span><br>Internship in Techno Colabs Software company based on Data Analytics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>current</span><br><b>Centurion University of Technology and Management</b><br>Computer Science and Engineering<br>Vizianagaram</li>
+                            <li><span>Intermediate (2020)</span><br><b>Sri Shiridi Sai Junior College</b><br>The Board of Intermediate Education<br>Rajahmundry</li>
+                            <li><span>Schooling (2018)</span><br><b>Sri Shirdi Sai Vidya Niketan</b><br>The Board of Secondary Education Of Andhra Pradesh<br>Kadiyam</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br>Fluent</li>
+                            <li><span>Hindi</span><br>Intermediate</li>
+                            <li><span>Telugu</span><br>Fluent</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="softskills">
+                        <ul>
+                            <li><span>Communication</span><br>Excellent</li>
+                            <li><span>Teamwork</span><br>Strong</li>
+                            <li><span>Problem Solving</span><br>Adaptable</li>
+                            <li><span>Time Management</span><br>Organized</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>Trading</span><br>Crypto</li>
+                            <li><span>Sports</span><br>Kabbadi,Cricket,volley Ball</li>
+                            <li><span>Facts</span><br>Vr Facts,Telugu Dost</li>
+                        </ul>
+                    </div>
+      </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-book"></i>
+                    <h2>Data Science and Machine Learning</h2>
+                    <p>Data science extracts insights from data using statistics and computer science, enabling data-driven decisions in diverse industries.<br>Machine learning empowers computers to learn from data and make predictions, driving innovations in AI applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I offer full-stack web development solutions, creating responsive websites with intuitive UI and robust back-end functionalities. See my portfolio for examples of my work.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa fa-bar-chart"></i>
+                    <h2>Data Analytics</h2>
+                    <p>I provide data analytics expertise to drive data-driven decision-making. See my portfolio for impactful examples.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>The company itself is a very successful company. It is repulsive to do to some
+                            indeed they leave with pain. Those incidents are nothing. He wants</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>The company itself is a very successful company. It is repulsive to do to some
+                            indeed they leave with pain. Those incidents are nothing. He wants</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Online Shopping App</h2>
+                        <p>The company itself is a very successful company. It is repulsive to do to some
+                            indeed they leave with pain. Those incidents are nothing. He wants</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> manipuppala9985@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 8008120597</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/manipuppala1314?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/manikantapuppa6?t=aAIYUpu72LhNaHmbgcKkDA&s=09" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://instagram.com/manikanta_1314_?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manikanta-puppala-784141245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Manikanta80" target="_blank"><i class="fa fa-github"></i></a>
+                    </div>
+                    <a href="file:///C:/Users/manip/Downloads/Puppala_Manikanta_Resume_.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <!DOCTYPE html>
+
+  <!-- References section -->
+  <section id="references">
+    <h2>References</h2>
+    <div class="reference">
+      <h3>x</h3>
+      <p>Senior Software Engineer</p>
+      <p>Email: x@gmail.com</p>
+      <p>Phone: +91 9985828319</p>
+    </div>
+    <div class="reference">
+      <h3>y</h3>
+      <p>Project Manager</p>
+      <p>Email: y@gmail.com</p>
+      <p>Phone: +91 9399928977</p>
+    </div>
+    <!-- Add more reference divs as needed -->
+  </section>
+
+</body>
+</html>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Manikanta. Made with <i class="fas fa-heart"></i> by P Manikanta</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
